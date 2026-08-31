@@ -1,0 +1,397 @@
+:root {
+  --core-spacing-space18: 18; /** 18px source spacing used by approved filled page actions. Primitive; components bind the published Spacing alias. */
+  --core-spacing-space80: 80; /** Core spacing source: 80px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space64: 64; /** Core spacing source: 64px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space56: 56; /** Core spacing source: 56px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space48: 48; /** Core spacing source: 48px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space40: 40; /** Core spacing source: 40px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space32: 32; /** Core spacing source: 32px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space30: 30; /** Core spacing source: 30px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space28: 28; /** Core spacing source: 28px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space24: 24; /** Core spacing source: 24px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space20: 20; /** Core spacing source: 20px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space16: 16; /** Core spacing source: 16px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space14: 14; /** Core spacing source: 14px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space12: 12; /** Core spacing source: 12px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space10: 10; /** Core spacing source: 10px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space08: 8; /** Core spacing source: 8px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space06: 6; /** Core spacing source: 6px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space04: 4; /** Core spacing source: 4px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space02: 2; /** Core spacing source: 2px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-spacing-space00: 0; /** Core spacing source: 0px. Alias from Spacing system tokens; never bind directly in components. */
+  --core-sizing-size08: 8;
+  --core-sizing-size72: 72;
+  --core-sizing-size42: 42;
+  --core-sizing-size17: 17;
+  --core-sizing-size06: 6; /** Core sizing source: 6px. Alias from role-level component sizing tokens; never bind directly in components. */
+  --core-sizing-size64: 64; /** Core sizing source: 64px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size56: 56; /** Core sizing source: 56px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size44: 44; /** Core sizing source: 44px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size40: 40; /** Core sizing source: 40px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size34: 34; /** Core sizing source: 34px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size32: 32; /** Core sizing source: 32px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size26: 26; /** Core sizing source: 26px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size24: 24; /** Core sizing source: 24px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size20: 20; /** Core sizing source: 20px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size16: 16; /** Core sizing source: 16px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-sizing-size12: 12; /** Core sizing source: 12px. Alias from Sizing system tokens; never bind directly in components. */
+  --core-responsive-responsive1480: 1480; /** Core responsive source: 1480px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1440: 1440; /** Core responsive source: 1440px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1280: 1280; /** Core responsive source: 1280px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1240: 1240; /** Core responsive source: 1240px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1120: 1120; /** Core responsive source: 1120px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1080: 1080; /** Core responsive source: 1080px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1040: 1040; /** Core responsive source: 1040px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive1024: 1024; /** Core responsive source: 1024px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive960: 960; /** Core responsive source: 960px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive768: 768; /** Core responsive source: 768px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive390: 390; /** Core responsive source: 390px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive268: 268; /** Core responsive source: 268px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive240: 240; /** Core responsive source: 240px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive76: 76; /** Core responsive source: 76px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive32: 32; /** Core responsive source: 32px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive24: 24; /** Core responsive source: 24px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-responsive-responsive20: 20; /** Core responsive source: 20px. Alias from Responsive mode tokens; never bind directly in components. */
+  --core-radius-radius05: 5;
+  --core-radius-radius99: 999; /** Core radius source: full round. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius22: 22; /** Core radius source: 22px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius20: 20; /** Core radius source: 20px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius18: 18; /** Core radius source: 18px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius16: 16; /** Core radius source: 16px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius14: 14; /** Core radius source: 14px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius12: 12; /** Core radius source: 12px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius10: 10; /** Core radius source: 10px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius08: 8; /** Core radius source: 8px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius06: 6; /** Core radius source: 6px. Alias from Radius system tokens; never bind directly in components. */
+  --core-radius-radius00: 0; /** Core radius source: 0px. Alias from Radius system tokens; never bind directly in components. */
+  --core-opacity-opacity56: 0.56; /** Core opacity source: 0.56. Alias from published system tokens; never bind directly in components. */
+  --core-opacity-opacity48: 0.48; /** Core opacity source: 0.48. Alias from published system tokens; never bind directly in components. */
+  --core-opacity-opacity08: 0.08; /** Core opacity source: 0.08. Alias from published system tokens; never bind directly in components. */
+  --core-opacity-opacity04: 0.04; /** Core opacity source: 0.04. Alias from published system tokens; never bind directly in components. */
+  --core-number-07: 7;
+  --core-line-height-line-height48: 48; /** Core typography source: 48px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height36: 36; /** Core typography source: 36px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height28: 28; /** Core typography source: 28px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height24: 24; /** Core typography source: 24px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height22: 22; /** Core typography source: 22px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height20: 20; /** Core typography source: 20px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height18: 18; /** Core typography source: 18px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-line-height-line-height16: 16; /** Core typography source: 16px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-letter-spacing-tracking08: 8; /** Core typography source: 8%. Alias from Typography system tokens; never bind directly to product text. */
+  --core-letter-spacing-tracking00: 0; /** Core typography source: 0%. Alias from Typography system tokens; never bind directly to product text. */
+  --core-letter-spacing-tracking-minus01: -1; /** Core typography source: -1%. Alias from Typography system tokens; never bind directly to product text. */
+  --core-letter-spacing-tracking-minus02: -2; /** Core typography source: -2%. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-style-bold: Bold; /** Core typography source: Bold. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-style-semi-bold: SemiBold; /** Core typography source: SemiBold. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-style-medium: Medium; /** Core typography source: Medium. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-style-regular: Regular; /** Core typography source: Regular. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size40: 40; /** Core typography source: 40px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size28: 28; /** Core typography source: 28px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size20: 20; /** Core typography source: 20px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size16: 16; /** Core typography source: 16px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size14-5: 14.5; /** Core typography source: 14.5px. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size14: 14; /** Core typography source: 14. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size13: 13; /** Core typography source: 13. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size12-5: 12.5; /** Core typography source: 12.5. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-size-font-size11: 11; /** Core typography source: 11. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-family-jet-brains-mono: JetBrains Mono;
+  --core-font-family-public-sans: Public Sans; /** Core typography source: Public Sans. Alias from Typography system tokens; never bind directly to product text. */
+  --core-font-family-onest: Onest; /** Core typography source: Onest. Alias from Typography system tokens; never bind directly to product text. */
+  --core-color-warning-200: #fde68a; /** Light warning border. */
+  --core-color-warning-700: #b45309; /** Light warning foreground and dot. */
+  --core-color-warning-dark-foreground: #fcd34d; /** Dark warning text and dot. */
+  --core-color-warning-dark-border: #755316; /** Dark warning border. */
+  --core-color-warning-dark-surface: #3a2b12; /** Dark warning surface. */
+  --core-color-warning-050: #fef3c7; /** Light warning surface. */
+  --core-color-success-200: #c3efe3; /** Light success border. */
+  --core-color-success-700: #15803d; /** Light success foreground and dot. */
+  --core-color-success-dark-foreground: #7de2a1; /** Dark success text and dot. */
+  --core-color-success-dark-border: #2b6b4f; /** Dark success border. */
+  --core-color-success-dark-surface: #153528; /** Dark success surface. */
+  --core-color-success-050: #e7fef8; /** Light success surface. */
+  --core-color-neutral-100: #f5f5f4; /** Default neutral hover foundation. */
+  --core-color-neutral-125: #f2f0eb; /** High-contrast inverse text on dark shell surfaces. */
+  --core-color-neutral-150: #f1f0ed; /** Neutral status and quiet surface foundation. */
+  --core-color-neutral-175: #efedea; /** Subtle dividers and row rules. */
+  --core-color-neutral-200: #e7e5e4; /** Default card, table and container border. */
+  --core-color-neutral-225: #e4e1da; /** Primary navigation text on the dark shell. */
+  --core-color-neutral-250: #e0ddd8; /** Standard control outline. */
+  --core-color-neutral-300: #d6d3d1; /** Strong divider and inactive checkbox outline. */
+  --core-color-neutral-350: #c9c5bc; /** Secondary icon and inverse border foundation. */
+  --core-color-neutral-400: #b5b0a7; /** Muted navigation and shell metadata. */
+  --core-color-neutral-500: #a8a29e; /** Disabled foreground foundation. */
+  --core-color-neutral-600: #78736b; /** Tertiary text and placeholder foundation. */
+  --core-color-neutral-700: #6b675f; /** Muted metadata and overline foundation. */
+  --core-color-neutral-800: #57534e; /** Secondary text foundation. */
+  --core-color-neutral-900: #35342f; /** Dark shell and utility icon foundation. */
+  --core-color-neutral-950: #1a1917; /** Primary text and high-emphasis ink. */
+  --core-color-neutral-1000: #0f1211; /** Deepest warm neutral and dark canvas foundation. */
+  --core-color-neutral-075: #f7f6f3; /** Low-contrast warm neutral surface. */
+  --core-color-neutral-050: #fafaf9; /** Warm off-white for subtle surfaces and hover foundations. */
+  --core-color-neutral-025: #fdfffc; /** Warm page-white used by the Paryatech canvas. */
+  --core-color-neutral-000: #ffffff; /** Absolute white. Use only through semantic aliases. */
+  --core-color-information-200: #bfdbfe; /** Light information and review border. */
+  --core-color-information-700: #1d4ed8; /** Light information and review foreground. */
+  --core-color-information-dark-foreground: #93c5fd; /** Dark information and review text and dot. */
+  --core-color-information-dark-border: #295486; /** Dark information and review border. */
+  --core-color-information-dark-surface: #172a46; /** Dark information and review surface. */
+  --core-color-information-050: #dbeafe; /** Light information and review surface. */
+  --core-color-dark-text-secondary: #d2cec7; /** Secondary text on dark surfaces. */
+  --core-color-dark-text-muted: #afaaa1; /** Muted metadata on dark surfaces. */
+  --core-color-dark-text-tertiary: #8a867f; /** Tertiary text on dark surfaces. */
+  --core-color-dark-text-disabled: #66635f; /** Disabled text on dark surfaces. */
+  --core-color-dark-border-strong: #4a5551; /** High-emphasis border on dark surfaces. */
+  --core-color-dark-border-control: #3a423f; /** Control outline on dark surfaces. */
+  --core-color-dark-border-default: #2f3532; /** Default border on dark surfaces. */
+  --core-color-dark-border-subtle: #262b29; /** Subtle divider on dark surfaces. */
+  --core-color-dark-overlay: #222927; /** Overlay and floating dark theme surface. */
+  --core-color-dark-raised: #1b211f; /** Raised dark theme surface. */
+  --core-color-dark-subtle: #191e1c; /** Quiet dark theme surface. */
+  --core-color-dark-surface: #151918; /** Default dark theme surface. */
+  --core-color-dark-sunken: #0b0e0d; /** Lowest dark elevation surface. */
+  --core-color-danger-200: #f6cbd0; /** Light danger border. */
+  --core-color-danger-700: #c0414d; /** Light danger foreground and destructive action. */
+  --core-color-danger-dark-foreground: #fda4af; /** Dark danger text and dot. */
+  --core-color-danger-dark-border: #7c3441; /** Dark danger border. */
+  --core-color-danger-dark-surface: #3a1c22; /** Dark danger surface. */
+  --core-color-danger-050: #fce2e5; /** Light danger surface. */
+  --core-color-brand-100: #e0f0ee; /** Soft teal surface foundation. */
+  --core-color-brand-150: #d6e9e5; /** Booking summary border from the approved direction. */
+  --core-color-brand-200: #c0e0dd; /** Subtle interactive border. */
+  --core-color-brand-300: #8fc4c0; /** Light teal foreground for dark theme interaction. */
+  --core-color-brand-400: #62a9a6; /** Accessible teal focus and medium-emphasis interaction. */
+  --core-color-brand-500: #2a8784; /** Dark-theme primary action foundation. */
+  --core-color-brand-600: #1c6e6b; /** General interactive teal. */
+  --core-color-brand-700: #115553; /** Primary Paryatech action and link teal. */
+  --core-color-brand-800: #0e4644; /** Primary hover teal. */
+  --core-color-brand-900: #0a3a38; /** Primary pressed teal. */
+  --core-color-brand-950: #062826; /** Deepest teal foundation. */
+  --core-color-brand-060: #f1f8f6; /** Documents data-table column header surface. */
+  --core-color-brand-025: #f7fbfa; /** Quiet teal-tinted header surface. */
+  --core-color-brand-dark-border: #285e5b; /** Dark interactive teal border. */
+  --core-color-brand-dark-selected: #15302e; /** Dark selected and subtle teal surface. */
+  --core-color-brand-075: #edf6f4; /** Booking summary surface from the approved direction. */
+  --core-color-brand-050: #f0f8f7; /** Light teal selected and hover surface. */
+  --core-color-alpha-black-56: rgba(0, 0, 0, 0.56); /** Reference-only 56% black used by modal and drawer scrims. */
+  --core-color-accent-100: #f8dee8; /** Avatar and identity accent surface. */
+  --core-color-accent-200: #efbdd5; /** Profile and accent border. */
+  --core-color-accent-300: #dda6c1; /** Light pink accent step. */
+  --core-color-accent-400: #c485a5; /** Medium pink accent step. */
+  --core-color-accent-500: #a56383; /** Primary Paryatech personality accent. */
+  --core-color-accent-600: #8d4e6c; /** Pink accent hover foundation. */
+  --core-color-accent-700: #733e58; /** Strong pink accent. */
+  --core-color-accent-800: #5b3045; /** Deep pink accent. */
+  --core-color-accent-900: #442435; /** Darkest pink accent. */
+  --core-color-accent-dark-foreground: #f0a9c8; /** Dark accent text and identity foreground. */
+  --core-color-accent-dark-border: #71445c; /** Dark accent border. */
+  --core-color-accent-dark-surface: #392833; /** Dark selected-navigation accent surface. */
+  --core-color-accent-050: #fceff4; /** Selected navigation and subtle personality surface. */
+  --core-border-width15: 1.5;
+  --core-border-border02: 2; /** Core border source: 2. Alias from published system tokens; never bind directly in components. */
+  --core-border-border015: 1.5; /** Core border source: 1.5. Alias from published system tokens; never bind directly in components. */
+  --core-border-border01: 1; /** Core border source: 1. Alias from published system tokens; never bind directly in components. */
+  --color-text-inverse: #ffffff; /** Text placed on strong filled actions or dark inverse surfaces. Theme values are semantic aliases. */
+  --color-text-disabled: #a8a29e; /** Text for genuinely unavailable controls and content. Theme values are semantic aliases. */
+  --color-text-tertiary: #78736b; /** Low-emphasis captions and secondary metadata; do not use for essential information. Theme values are semantic aliases. */
+  --color-text-muted: #6b675f; /** Reduced-emphasis metadata that remains comfortably readable. Theme values are semantic aliases. */
+  --color-text-secondary: #57534e; /** Standard supporting text and body copy. Theme values are semantic aliases. */
+  --color-text-primary: #1a1917; /** Highest-emphasis readable text for titles, names and important values. Theme values are semantic aliases. */
+  --color-text-link-hover: #0e4644; /** Hover state for interactive text links. Theme values are semantic aliases. */
+  --color-text-link-default: #115553; /** Default interactive text and file links. Theme values are semantic aliases. */
+  --color-surface-brand-summary: #edf6f4; /** Booking and summary surfaces that require subtle Paryatech identity. Light and Dark values are mode-controlled aliases. */
+  --color-surface-selected: #f0f8f7; /** Selected row or selected neutral content state; not a status color. Light and Dark values are mode-controlled aliases. */
+  --color-surface-table-header: #f1f8f6; /** Dedicated data-table column-header surface. Keep distinct from body rows. Light and Dark values are mode-controlled aliases. */
+  --color-surface-quiet-header: #f7fbfa; /** Very quiet brand-tinted header surface. Use for lightweight section headers. Light and Dark values are mode-controlled aliases. */
+  --color-surface-overlay: #ffffff; /** Overlay surface for menus, popovers, drawers and modals. Light and Dark values are mode-controlled aliases. */
+  --color-surface-raised: #ffffff; /** Raised content surface used with an elevation style. Light and Dark values are mode-controlled aliases. */
+  --color-surface-sunken: #fafaf9; /** Recessed or inset regions such as wells and inactive areas. Light and Dark values are mode-controlled aliases. */
+  --color-surface-subtle: #fafaf9; /** Quiet grouped content surface where a lower visual level is needed. Light and Dark values are mode-controlled aliases. */
+  --color-surface-default: #ffffff; /** Primary component and content surface: tables, inputs, cards and sheets. Light and Dark values are mode-controlled aliases. */
+  --color-surface-canvas: #fdfffc; /** Application canvas behind all content. Use once per screen; never for cards. Light and Dark values are mode-controlled aliases. */
+  --color-status-warning-foreground: #b45309; /** Warning label, dot and icon color. Theme values are semantic aliases. */
+  --color-status-warning-border: #fde68a; /** Warning status border. Theme values are semantic aliases. */
+  --color-status-warning-background: #fef3c7; /** Warning status surface: requested, due, upcoming and needs-attention. Theme values are semantic aliases. */
+  --color-status-success-foreground: #15803d; /** Success label, dot and icon color. Theme values are semantic aliases. */
+  --color-status-success-border: #c3efe3; /** Success status border. Theme values are semantic aliases. */
+  --color-status-success-background: #e7fef8; /** Success status surface: verified, confirmed, paid and completed only. Theme values are semantic aliases. */
+  --color-status-neutral-foreground: #57534e; /** Neutral status label, dot and icon color. Theme values are semantic aliases. */
+  --color-status-neutral-border: #e7e5e4; /** Neutral status border. Theme values are semantic aliases. */
+  --color-status-neutral-background: #f1f0ed; /** Neutral status surface for draft, open, unassigned or inactive. Theme values are semantic aliases. */
+  --color-status-info-foreground: #1d4ed8; /** Information label, dot and icon color. Theme values are semantic aliases. */
+  --color-status-info-border: #bfdbfe; /** Information status border. Theme values are semantic aliases. */
+  --color-status-info-background: #dbeafe; /** Information status surface: in review, processing and pending approval. Theme values are semantic aliases. */
+  --color-status-danger-foreground: #c0414d; /** Danger label, dot and icon color. Theme values are semantic aliases. */
+  --color-status-danger-border: #f6cbd0; /** Danger status border. Theme values are semantic aliases. */
+  --color-status-danger-background: #fce2e5; /** Danger status surface: missing, blocked, overdue and failed. Theme values are semantic aliases. */
+  --color-skeleton-highlight: #fafaf9; /** Skeleton shimmer highlight. Respect reduced-motion preferences in production. Theme values are semantic aliases. */
+  --color-skeleton-base: #f1f0ed; /** Base placeholder surface for initial component-level skeleton loading. Theme values are semantic aliases. */
+  --color-sidebar-border: #4a5551; /** Borders used inside the dark navigation shell. Theme values are semantic aliases. */
+  --color-sidebar-surface: #35342f; /** Inset surface inside the navigation shell, such as Notes and usage panels. Theme values are semantic aliases. */
+  --color-sidebar-background: #35342f; /** Persistent application navigation background. Theme values are semantic aliases. */
+  --color-sidebar-text-secondary: #b5b0a7; /** Sidebar group labels and supporting information. Theme values are semantic aliases. */
+  --color-sidebar-text-primary: #f2f0eb; /** Primary navigation text and icon color. Theme values are semantic aliases. */
+  --color-sidebar-selected-foreground: #a56383; /** Selected navigation label and icon color. Theme values are semantic aliases. */
+  --color-sidebar-selected-background: #fceff4; /** Selected navigation item background. Pink is identity, not a general action color. Theme values are semantic aliases. */
+  --color-sidebar-action-foreground: #efbdd5;
+  --color-overlay-scrim: rgba(0, 0, 0, 0.56); /** Modal and drawer backdrop scrim. Theme values are semantic aliases. */
+  --color-icon-info: #1d4ed8; /** Informational and in-progress icon color. Theme values are semantic aliases. */
+  --color-icon-danger: #c0414d; /** Danger, failure and destructive icon color. Theme values are semantic aliases. */
+  --color-icon-warning: #b45309; /** Attention and due-state icon color. Theme values are semantic aliases. */
+  --color-icon-success: #15803d; /** Success-only icon color. Theme values are semantic aliases. */
+  --color-icon-inverse: #ffffff; /** Icons on strong filled actions and inverse surfaces. Theme values are semantic aliases. */
+  --color-icon-interactive: #115553; /** Icons that initiate or reinforce an interactive action. Theme values are semantic aliases. */
+  --color-icon-muted: #78736b; /** Low-emphasis decorative or supporting icon color. Theme values are semantic aliases. */
+  --color-icon-default: #35342f; /** Default noninteractive and utility icon color. Theme values are semantic aliases. */
+  --color-border-danger: #f6cbd0; /** Border for destructive and error states. Theme values are semantic aliases. */
+  --color-border-accent: #efbdd5; /** Pink identity or selected-navigation accent border. Theme values are semantic aliases. */
+  --color-border-focused: #62a9a6; /** Visible keyboard focus-ring color. Do not replace with hover color. Theme values are semantic aliases. */
+  --color-border-interactive: #c0e0dd; /** Brand-aware border for secondary and selected interactive controls. Theme values are semantic aliases. */
+  --color-border-strong: #d6d3d1; /** Higher-emphasis separators and selected neutral controls. Theme values are semantic aliases. */
+  --color-border-control: #e0ddd8; /** Inputs, selects and neutral button borders. Theme values are semantic aliases. */
+  --color-border-subtle: #efedea; /** Quiet separators and low-emphasis dividers. Theme values are semantic aliases. */
+  --color-border-default: #e7e5e4; /** Default container, table and card border. Theme values are semantic aliases. */
+  --color-avatar-tone-warning-foreground: #b45309;
+  --color-avatar-tone-warning-background: #fef3c7;
+  --color-avatar-tone-success-foreground: #15803d;
+  --color-avatar-tone-success-background: #e7fef8;
+  --color-avatar-tone-info-foreground: #1d4ed8;
+  --color-avatar-tone-info-background: #dbeafe;
+  --color-action-tertiary-border: #c0e0dd; /** Border for outlined brand actions. Theme values are semantic aliases. */
+  --color-action-tertiary-foreground: #115553; /** Text and icon color for outlined and ghost brand actions. Theme values are semantic aliases. */
+  --color-action-tertiary-background-hover: #f0f8f7; /** Hover surface for outlined and ghost brand actions. Theme values are semantic aliases. */
+  --color-action-tertiary-background-default: #ffffff; /** Default surface for outlined brand actions. Theme values are semantic aliases. */
+  --color-action-secondary-border: #e0ddd8; /** Border for neutral secondary actions. Theme values are semantic aliases. */
+  --color-action-secondary-foreground: #1a1917; /** Text and icon color for neutral secondary actions. Theme values are semantic aliases. */
+  --color-action-secondary-background-hover: #f5f5f4; /** Neutral secondary action hover surface. Theme values are semantic aliases. */
+  --color-action-secondary-background-default: #ffffff; /** Default neutral secondary action surface. Theme values are semantic aliases. */
+  --color-action-primary-foreground: #ffffff; /** Text and icon foreground on filled primary actions. Theme values are semantic aliases. */
+  --color-action-primary-background-pressed: #0a3a38; /** Filled primary action pressed background. Theme values are semantic aliases. */
+  --color-action-primary-background-hover: #0e4644; /** Filled primary action hover background. Theme values are semantic aliases. */
+  --color-action-primary-background-default: #115553; /** Default filled primary action background. Theme values are semantic aliases. */
+  --color-action-destructive-foreground: #ffffff; /** Text and icon color on filled destructive actions. Theme values are semantic aliases. */
+  --color-action-destructive-background-hover: #7c3441; /** Filled destructive action hover background. Theme values are semantic aliases. */
+  --color-action-destructive-background-default: #c0414d; /** Filled destructive action background. Reserve for explicit destructive intent. Theme values are semantic aliases. */
+  --color-accent-foreground: #a56383; /** Pink identity foreground for selected navigation and personality accents. Theme values are semantic aliases. */
+  --color-accent-background: #fceff4; /** Low-emphasis pink identity surface. Theme values are semantic aliases. */
+  --color-accent-avatar-background: #f8dee8; /** Identity avatar background; not a status color. Theme values are semantic aliases. */
+  --spacing-scale-space-18: 18; /** Published spacing scale: 18px. Required by Booking V3 filled page actions. Components bind this alias, never Core directly. */
+  --spacing-scale-space-80: 80; /** Published spacing scale: 80px. Aliases Core/Spacing/Space80. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-64: 64; /** Published spacing scale: 64px. Aliases Core/Spacing/Space64. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-56: 56; /** Published spacing scale: 56px. Aliases Core/Spacing/Space56. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-48: 48; /** Published spacing scale: 48px. Aliases Core/Spacing/Space48. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-40: 40; /** Published spacing scale: 40px. Aliases Core/Spacing/Space40. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-32: 32; /** Published spacing scale: 32px. Aliases Core/Spacing/Space32. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-30: 30; /** Published spacing scale: 30px. Aliases Core/Spacing/Space30. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-28: 28; /** Published spacing scale: 28px. Aliases Core/Spacing/Space28. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-24: 24; /** Published spacing scale: 24px. Aliases Core/Spacing/Space24. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-20: 20; /** Published spacing scale: 20px. Aliases Core/Spacing/Space20. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-16: 16; /** Published spacing scale: 16px. Aliases Core/Spacing/Space16. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-14: 14; /** Published spacing scale: 14px. Aliases Core/Spacing/Space14. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-12: 12; /** Published spacing scale: 12px. Aliases Core/Spacing/Space12. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-10: 10; /** Published spacing scale: 10px. Aliases Core/Spacing/Space10. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-08: 8; /** Published spacing scale: 8px. Aliases Core/Spacing/Space08. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-06: 6; /** Published spacing scale: 6px. Aliases Core/Spacing/Space06. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-04: 4; /** Published spacing scale: 4px. Aliases Core/Spacing/Space04. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-02: 2; /** Published spacing scale: 2px. Aliases Core/Spacing/Space02. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-scale-space-00: 0; /** Published spacing scale: 0px. Aliases Core/Spacing/Space00. Use for auto-layout gaps and padding; components should not bind Core directly. */
+  --spacing-component-summary-cell-vertical-padding: 17;
+  --spacing-component-button-inline-gap: 7;
+  --radius-scale-radius-full-round: 999; /** Full-round radius. Statuses, avatars and circular controls only. Aliases Core/Radius/Radius99. */
+  --radius-scale-radius-xxl: 20; /** Double-extra-large radius: 20px. Modals and drawers. Aliases Core/Radius/Radius20. */
+  --radius-scale-radius-xl: 16; /** Extra-large radius: 16px. Tables and summary panels. Aliases Core/Radius/Radius16. */
+  --radius-scale-radius-l: 12; /** Large radius: 12px. Cards. Aliases Core/Radius/Radius12. */
+  --radius-scale-radius-m: 10; /** Medium radius: 10px. Standard fields and buttons. Aliases Core/Radius/Radius10. */
+  --radius-scale-radius-s: 8; /** Small radius: 8px. Compact operational controls. Aliases Core/Radius/Radius08. */
+  --radius-scale-radius-xs: 6; /** Extra-small radius: 6px. Checkbox and very compact geometry. Aliases Core/Radius/Radius06. */
+  --radius-scale-radius-none: 0; /** No radius. Reserve for dividers and deliberately square geometry. Aliases Core/Radius/Radius00. */
+  --radius-focus-modal-drawer: 22; /** Outer focus radius for Modal & Drawer. Equals component radius plus the 2px focus offset. Aliases Core/Radius/Radius22. */
+  --radius-focus-panel-table: 18; /** Outer focus radius for Panel & Table. Equals component radius plus the 2px focus offset. Aliases Core/Radius/Radius18. */
+  --radius-focus-card: 14; /** Outer focus radius for Card. Equals component radius plus the 2px focus offset. Aliases Core/Radius/Radius14. */
+  --radius-focus-field-button: 12; /** Outer focus radius for Field & Button. Equals component radius plus the 2px focus offset. Aliases Core/Radius/Radius12. */
+  --radius-focus-compact-control: 10; /** Outer focus radius for Compact Control. Equals component radius plus the 2px focus offset. Aliases Core/Radius/Radius10. */
+  --radius-focus-checkbox: 8; /** Outer focus radius for Checkbox. Equals component radius plus the 2px focus offset. Aliases Core/Radius/Radius08. */
+  --radius-component-count-badge: 5;
+  --radius-component-avatar: 999; /** Avatar and circular icon-control radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-status: 999; /** Status badge radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-modal-drawer: 20; /** Modal and drawer container radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-panel-table: 16; /** Primary panel, summary panel and table-shell radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-card: 12; /** Service and grouped-content card radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-field-button: 10; /** Standard field, select and page-button radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-compact-control: 8; /** Compact table-action and dense control radius. This component alias resolves through the Radius scale to Core. */
+  --radius-component-checkbox: 6; /** Checkbox radius. Use only the component token in Checkbox. This component alias resolves through the Radius scale to Core. */
+  --border-width-notification: 1.5;
+  --border-width-focus-ring: 2; /** Visible keyboard focus-ring width. Aliases Core/Border/Border02. */
+  --border-width-selected: 2; /** Selected structural border; do not use for ordinary separators. Aliases Core/Border/Border02. */
+  --border-width-compact: 1.5; /** Precision 1.5px border for checkboxes and compact controls. Aliases Core/Border/Border015. */
+  --border-width-default: 1; /** Default 1px border for cards, tables, rows and standard controls. Aliases Core/Border/Border01. */
+  --sizing-table-row-comfortable: 64; /** Comfortable table density for multi-line content. Aliases Core/Sizing/Size64. Components bind this role token, never Core directly. */
+  --sizing-table-row-compact: 56; /** Compact operational table row from the Documents reference. Aliases Core/Sizing/Size56. Components bind this role token, never Core directly. */
+  --sizing-table-header: 44; /** Data-table column-header row height. Aliases Core/Sizing/Size44. Components bind this role token, never Core directly. */
+  --sizing-status-dot: 6; /** 6px semantic status indicator dot. Components bind this role token, never Core directly. */
+  --sizing-status-height: 26; /** Standard semantic status badge height. Aliases Core/Sizing/Size26. Components bind this role token, never Core directly. */
+  --sizing-pagination-control: 32; /** Pagination arrow and page controls inside the table footer. Aliases Core/Sizing/Size32. Components bind this role token, never Core directly. */
+  --sizing-notification-dot: 8;
+  --sizing-navigation-count-badge: 17;
+  --sizing-navigation-top-bar: 72;
+  --sizing-navigation-sidebar-item: 42;
+  --sizing-navigation-tab: 44;
+  --sizing-icon-xl: 24; /** Largest system icon size; use sparingly in empty states and section-leading visuals. Aliases Core/Sizing/Size24. Components bind this role token, never Core directly. */
+  --sizing-icon-l: 20; /** Prominent utility and navigation icons. Aliases Core/Sizing/Size20. Components bind this role token, never Core directly. */
+  --sizing-icon-m: 16; /** Default icon size for buttons, inputs, table actions and navigation. Aliases Core/Sizing/Size16. Components bind this role token, never Core directly. */
+  --sizing-icon-s: 12; /** Status dots and compact supporting icons. Aliases Core/Sizing/Size12. Components bind this role token, never Core directly. */
+  --sizing-control-large: 44; /** High-priority page actions and accessible large controls. Aliases Core/Sizing/Size44. Components bind this role token, never Core directly. */
+  --sizing-control-standard: 40; /** Default buttons, fields, selects and toolbar controls. Aliases Core/Sizing/Size40. Components bind this role token, never Core directly. */
+  --sizing-control-compact: 34; /** Data-table row actions from the Documents reference. Aliases Core/Sizing/Size34. Components bind this role token, never Core directly. */
+  --sizing-control-xs: 32; /** Dense icon and utility controls where touch-target requirements are handled by surrounding space. Aliases Core/Sizing/Size32. Components bind this role token, never Core directly. */
+  --sizing-checkbox-size: 20; /** Data-table and selection checkbox width and height. Aliases Core/Sizing/Size20. Components bind this role token, never Core directly. */
+  --sizing-avatar-l: 40; /** Prominent identity avatars. Aliases Core/Sizing/Size40. Components bind this role token, never Core directly. */
+  --sizing-avatar-m: 32; /** Default table, booking-owner and communication avatars. Aliases Core/Sizing/Size32. Components bind this role token, never Core directly. */
+  --sizing-avatar-s: 24; /** Compact inline avatars. Aliases Core/Sizing/Size24. Components bind this role token, never Core directly. */
+  --sizing-accessibility-minimum-touch-target: 44; /** Minimum interactive target size for accessible pointer and touch use. Aliases Core/Sizing/Size44. Components bind this role token, never Core directly. */
+  --opacity-focus-opacity-scrim: 0.56; /** Modal and drawer scrim opacity when implemented as a separate black overlay. Aliases Core/Opacity/Opacity56. */
+  --opacity-focus-opacity-pressed-overlay: 0.08; /** Neutral pressed overlay opacity. Aliases Core/Opacity/Opacity08. */
+  --opacity-focus-opacity-hover-overlay: 0.04; /** Neutral hover overlay opacity. Aliases Core/Opacity/Opacity04. */
+  --opacity-focus-opacity-disabled: 0.48; /** Opacity for unavailable decorative layers; disabled text and surfaces should prefer dedicated semantic colors. Aliases Core/Opacity/Opacity48. */
+  --opacity-focus-focus-ring-gap: 2; /** Spacing token for focus-ring constructions using nested auto-layout. Aliases Core/Spacing/Space02. */
+  --opacity-focus-focus-ring-offset: 2; /** Gap between a control edge and its outer focus ring. Aliases Core/Spacing/Space02. */
+  --opacity-focus-focus-ring-width: 2; /** Visible keyboard focus-ring stroke width. Aliases Core/Border/Border02. */
+  --typography-style-bold: Bold; /** Bold emphasis for page titles and important headings. Aliases Core/Font Style/Bold. Text styles bind this published token, never Core directly. */
+  --typography-style-semi-bold: SemiBold; /** Semibold emphasis for headings and overlines. Aliases Core/Font Style/SemiBold. Text styles bind this published token, never Core directly. */
+  --typography-style-medium: Medium; /** Medium emphasis for labels, data and compact actions. Aliases Core/Font Style/Medium. Text styles bind this published token, never Core directly. */
+  --typography-style-regular: Regular; /** Regular text style string. Aliases Core/Font Style/Regular. Text styles bind this published token, never Core directly. */
+  --typography-size-11: 11; /** Normalized typography size: 11px. Use through the published text styles. Aliases Core/Font Size/FontSize11. Text styles bind this published token, never Core directly. */
+  --typography-size-13: 13; /** Normalized typography size: 13px. Use through the published text styles. Aliases Core/Font Size/FontSize13. Text styles bind this published token, never Core directly. */
+  --typography-size-14: 14; /** Normalized typography size: 14px. Use through the published text styles. Aliases Core/Font Size/FontSize14. Text styles bind this published token, never Core directly. */
+  --typography-size-16: 16; /** Normalized typography size: 16px. Use through the published text styles. Aliases Core/Font Size/FontSize16. Text styles bind this published token, never Core directly. */
+  --typography-size-20: 20; /** Normalized typography size: 20px. Use through the published text styles. Aliases Core/Font Size/FontSize20. Text styles bind this published token, never Core directly. */
+  --typography-size-28: 28; /** Normalized typography size: 28px. Use through the published text styles. Aliases Core/Font Size/FontSize28. Text styles bind this published token, never Core directly. */
+  --typography-size-40: 40; /** Normalized typography size: 40px. Use through the published text styles. Aliases Core/Font Size/FontSize40. Text styles bind this published token, never Core directly. */
+  --typography-size-14-5: 14.5; /** Normalized typography size: 14.5px. Use through the published text styles. Aliases Core/Font Size/FontSize14_5. Text styles bind this published token, never Core directly. */
+  --typography-size-12-5: 12.5; /** Normalized typography size: 12.5px. Use through the published text styles. Aliases Core/Font Size/FontSize12_5. Text styles bind this published token, never Core directly. */
+  --typography-line-height-16: 16; /** Typography line height: 16px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight16. Text styles bind this published token, never Core directly. */
+  --typography-line-height-18: 18; /** Typography line height: 18px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight18. Text styles bind this published token, never Core directly. */
+  --typography-line-height-20: 20; /** Typography line height: 20px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight20. Text styles bind this published token, never Core directly. */
+  --typography-line-height-22: 22; /** Typography line height: 22px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight22. Text styles bind this published token, never Core directly. */
+  --typography-line-height-24: 24; /** Typography line height: 24px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight24. Text styles bind this published token, never Core directly. */
+  --typography-line-height-28: 28; /** Typography line height: 28px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight28. Text styles bind this published token, never Core directly. */
+  --typography-line-height-36: 36; /** Typography line height: 36px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight36. Text styles bind this published token, never Core directly. */
+  --typography-line-height-48: 48; /** Typography line height: 48px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight48. Text styles bind this published token, never Core directly. */
+  --typography-letter-spacing-overline: 8; /** Uppercase overline and table-column header tracking, represented as a percentage. Aliases Core/Letter Spacing/Tracking08. Text styles bind this published token, never Core directly. */
+  --typography-letter-spacing-tighter: -2; /** Tighter tracking for page and display headings, represented as a percentage. Aliases Core/Letter Spacing/TrackingMinus02. Text styles bind this published token, never Core directly. */
+  --typography-letter-spacing-tight: -1; /** Tight tracking for compact headings, represented as a percentage. Aliases Core/Letter Spacing/TrackingMinus01. Text styles bind this published token, never Core directly. */
+  --typography-letter-spacing-normal: 0; /** Default tracking for body, label and data text. Aliases Core/Letter Spacing/Tracking00. Text styles bind this published token, never Core directly. */
+  --typography-family-data: JetBrains Mono; /** Data, ID, date and monetary family. Use tabular numerals in implementation where alignment matters; JetBrains Mono is not permitted. Aliases Core/Font Family/Public Sans. Text styles bind this published token, never Core directly. */
+  --typography-family-ui: Public Sans; /** Default UI, body, label and control family. Aliases Core/Font Family/Public Sans. Text styles bind this published token, never Core directly. */
+  --typography-family-heading: Onest; /** Heading and important-title family. Do not use for dense UI body copy. Aliases Core/Font Family/Onest. Text styles bind this published token, never Core directly. */
+  --responsive-layout-table-minimum: 960; /** Recommended minimum table content width before horizontal overflow or responsive column prioritization. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-layout-sidebar-collapsed: 76; /** Collapsed navigation width. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-layout-sidebar-expanded: 240; /** Expanded navigation width by responsive mode. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-layout-content-maximum: 1080; /** Maximum working-content width by responsive mode. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-layout-page-gutter: 20; /** Horizontal application-page gutter by responsive mode. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-breakpoint-desktop-wide: 1440; /** Wide desktop composition breakpoint. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-breakpoint-desktop-standard: 1280; /** Standard desktop composition breakpoint. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-breakpoint-desktop-minimum: 1024; /** Minimum supported desktop workspace width. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-breakpoint-tablet: 768; /** Tablet reference breakpoint. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --responsive-breakpoint-mobile: 390; /** Mobile reference breakpoint. Phase 01 desktop components must still document reflow below this width. Figma modes are selected manually; production breakpoints switch automatically. Every mode aliases a value-explicit Core/Responsive token. */
+  --icon-context-foreground: #ffffff;
+}
