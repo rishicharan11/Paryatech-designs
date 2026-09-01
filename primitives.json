@@ -1,0 +1,2443 @@
+{
+  "$metadata": {
+    "derivedFrom": "Tokens/Default_Light_StandardDesktop.tokens.json",
+    "layer": "primitive",
+    "generated": true
+  },
+  "Core": {
+    "Spacing": {
+      "Space18": {
+        "$value": 18,
+        "$type": "number",
+        "$description": "18px source spacing used by approved filled page actions. Primitive; components bind the published Spacing alias.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689186
+        }
+      },
+      "Space80": {
+        "$value": 80,
+        "$type": "number",
+        "$description": "Core spacing source: 80px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689123
+        }
+      },
+      "Space64": {
+        "$value": 64,
+        "$type": "number",
+        "$description": "Core spacing source: 64px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689122
+        }
+      },
+      "Space56": {
+        "$value": 56,
+        "$type": "number",
+        "$description": "Core spacing source: 56px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689121
+        }
+      },
+      "Space48": {
+        "$value": 48,
+        "$type": "number",
+        "$description": "Core spacing source: 48px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689120
+        }
+      },
+      "Space40": {
+        "$value": 40,
+        "$type": "number",
+        "$description": "Core spacing source: 40px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689119
+        }
+      },
+      "Space32": {
+        "$value": 32,
+        "$type": "number",
+        "$description": "Core spacing source: 32px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689118
+        }
+      },
+      "Space30": {
+        "$value": 30,
+        "$type": "number",
+        "$description": "Core spacing source: 30px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689117
+        }
+      },
+      "Space28": {
+        "$value": 28,
+        "$type": "number",
+        "$description": "Core spacing source: 28px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689116
+        }
+      },
+      "Space24": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Core spacing source: 24px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689115
+        }
+      },
+      "Space20": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Core spacing source: 20px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689114
+        }
+      },
+      "Space16": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Core spacing source: 16px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689113
+        }
+      },
+      "Space14": {
+        "$value": 14,
+        "$type": "number",
+        "$description": "Core spacing source: 14px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689112
+        }
+      },
+      "Space12": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Core spacing source: 12px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689111
+        }
+      },
+      "Space10": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "Core spacing source: 10px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689110
+        }
+      },
+      "Space08": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "Core spacing source: 8px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689109
+        }
+      },
+      "Space06": {
+        "$value": 6,
+        "$type": "number",
+        "$description": "Core spacing source: 6px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689108
+        }
+      },
+      "Space04": {
+        "$value": 4,
+        "$type": "number",
+        "$description": "Core spacing source: 4px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689107
+        }
+      },
+      "Space02": {
+        "$value": 2,
+        "$type": "number",
+        "$description": "Core spacing source: 2px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689106
+        }
+      },
+      "Space00": {
+        "$value": 0,
+        "$type": "number",
+        "$description": "Core spacing source: 0px. Alias from Spacing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689105
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293758
+      }
+    },
+    "Sizing": {
+      "Size08": {
+        "$value": 8,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689192
+        }
+      },
+      "Size72": {
+        "$value": 72,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689191
+        }
+      },
+      "Size42": {
+        "$value": 42,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689190
+        }
+      },
+      "Size17": {
+        "$value": 17,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689189
+        }
+      },
+      "Size06": {
+        "$value": 6,
+        "$type": "number",
+        "$description": "Core sizing source: 6px. Alias from role-level component sizing tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689187
+        }
+      },
+      "Size64": {
+        "$value": 64,
+        "$type": "number",
+        "$description": "Core sizing source: 64px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689134
+        }
+      },
+      "Size56": {
+        "$value": 56,
+        "$type": "number",
+        "$description": "Core sizing source: 56px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689133
+        }
+      },
+      "Size44": {
+        "$value": 44,
+        "$type": "number",
+        "$description": "Core sizing source: 44px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689132
+        }
+      },
+      "Size40": {
+        "$value": 40,
+        "$type": "number",
+        "$description": "Core sizing source: 40px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689131
+        }
+      },
+      "Size34": {
+        "$value": 34,
+        "$type": "number",
+        "$description": "Core sizing source: 34px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689130
+        }
+      },
+      "Size32": {
+        "$value": 32,
+        "$type": "number",
+        "$description": "Core sizing source: 32px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689129
+        }
+      },
+      "Size26": {
+        "$value": 26,
+        "$type": "number",
+        "$description": "Core sizing source: 26px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689128
+        }
+      },
+      "Size24": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Core sizing source: 24px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689127
+        }
+      },
+      "Size20": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Core sizing source: 20px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689126
+        }
+      },
+      "Size16": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Core sizing source: 16px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689125
+        }
+      },
+      "Size12": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Core sizing source: 12px. Alias from Sizing system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689124
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293757
+      }
+    },
+    "Responsive": {
+      "Responsive1480": {
+        "$value": 1480,
+        "$type": "number",
+        "$description": "Core responsive source: 1480px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689185
+        }
+      },
+      "Responsive1440": {
+        "$value": 1440,
+        "$type": "number",
+        "$description": "Core responsive source: 1440px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689184
+        }
+      },
+      "Responsive1280": {
+        "$value": 1280,
+        "$type": "number",
+        "$description": "Core responsive source: 1280px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689183
+        }
+      },
+      "Responsive1240": {
+        "$value": 1240,
+        "$type": "number",
+        "$description": "Core responsive source: 1240px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689182
+        }
+      },
+      "Responsive1120": {
+        "$value": 1120,
+        "$type": "number",
+        "$description": "Core responsive source: 1120px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689181
+        }
+      },
+      "Responsive1080": {
+        "$value": 1080,
+        "$type": "number",
+        "$description": "Core responsive source: 1080px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689180
+        }
+      },
+      "Responsive1040": {
+        "$value": 1040,
+        "$type": "number",
+        "$description": "Core responsive source: 1040px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689179
+        }
+      },
+      "Responsive1024": {
+        "$value": 1024,
+        "$type": "number",
+        "$description": "Core responsive source: 1024px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689178
+        }
+      },
+      "Responsive960": {
+        "$value": 960,
+        "$type": "number",
+        "$description": "Core responsive source: 960px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689177
+        }
+      },
+      "Responsive768": {
+        "$value": 768,
+        "$type": "number",
+        "$description": "Core responsive source: 768px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689176
+        }
+      },
+      "Responsive390": {
+        "$value": 390,
+        "$type": "number",
+        "$description": "Core responsive source: 390px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689175
+        }
+      },
+      "Responsive268": {
+        "$value": 268,
+        "$type": "number",
+        "$description": "Core responsive source: 268px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689174
+        }
+      },
+      "Responsive240": {
+        "$value": 240,
+        "$type": "number",
+        "$description": "Core responsive source: 240px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689173
+        }
+      },
+      "Responsive76": {
+        "$value": 76,
+        "$type": "number",
+        "$description": "Core responsive source: 76px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689172
+        }
+      },
+      "Responsive32": {
+        "$value": 32,
+        "$type": "number",
+        "$description": "Core responsive source: 32px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689171
+        }
+      },
+      "Responsive24": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Core responsive source: 24px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689170
+        }
+      },
+      "Responsive20": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Core responsive source: 20px. Alias from Responsive mode tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689169
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293756
+      }
+    },
+    "Radius": {
+      "Radius05": {
+        "$value": 5,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689188
+        }
+      },
+      "Radius99": {
+        "$value": 999,
+        "$type": "number",
+        "$description": "Core radius source: full round. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689104
+        }
+      },
+      "Radius22": {
+        "$value": 22,
+        "$type": "number",
+        "$description": "Core radius source: 22px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689103
+        }
+      },
+      "Radius20": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Core radius source: 20px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689102
+        }
+      },
+      "Radius18": {
+        "$value": 18,
+        "$type": "number",
+        "$description": "Core radius source: 18px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689101
+        }
+      },
+      "Radius16": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Core radius source: 16px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689100
+        }
+      },
+      "Radius14": {
+        "$value": 14,
+        "$type": "number",
+        "$description": "Core radius source: 14px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689099
+        }
+      },
+      "Radius12": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Core radius source: 12px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689098
+        }
+      },
+      "Radius10": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "Core radius source: 10px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689097
+        }
+      },
+      "Radius08": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "Core radius source: 8px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689096
+        }
+      },
+      "Radius06": {
+        "$value": 6,
+        "$type": "number",
+        "$description": "Core radius source: 6px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689095
+        }
+      },
+      "Radius00": {
+        "$value": 0,
+        "$type": "number",
+        "$description": "Core radius source: 0px. Alias from Radius system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689094
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293755
+      }
+    },
+    "Opacity": {
+      "Opacity56": {
+        "$value": 0.56,
+        "$type": "number",
+        "$description": "Core opacity source: 0.56. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689141
+        }
+      },
+      "Opacity48": {
+        "$value": 0.48,
+        "$type": "number",
+        "$description": "Core opacity source: 0.48. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689140
+        }
+      },
+      "Opacity08": {
+        "$value": 0.08,
+        "$type": "number",
+        "$description": "Core opacity source: 0.08. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689139
+        }
+      },
+      "Opacity04": {
+        "$value": 0.04,
+        "$type": "number",
+        "$description": "Core opacity source: 0.04. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689138
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293754
+      }
+    },
+    "Number": {
+      "07": {
+        "$value": 7,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689194
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293753
+      }
+    },
+    "Line Height": {
+      "LineHeight48": {
+        "$value": 48,
+        "$type": "number",
+        "$description": "Core typography source: 48px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689164
+        }
+      },
+      "LineHeight36": {
+        "$value": 36,
+        "$type": "number",
+        "$description": "Core typography source: 36px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689163
+        }
+      },
+      "LineHeight28": {
+        "$value": 28,
+        "$type": "number",
+        "$description": "Core typography source: 28px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689162
+        }
+      },
+      "LineHeight24": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Core typography source: 24px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689161
+        }
+      },
+      "LineHeight22": {
+        "$value": 22,
+        "$type": "number",
+        "$description": "Core typography source: 22px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689160
+        }
+      },
+      "LineHeight20": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Core typography source: 20px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689159
+        }
+      },
+      "LineHeight18": {
+        "$value": 18,
+        "$type": "number",
+        "$description": "Core typography source: 18px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689158
+        }
+      },
+      "LineHeight16": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Core typography source: 16px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689157
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293752
+      }
+    },
+    "Letter Spacing": {
+      "Tracking08": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "Core typography source: 8%. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689168
+        }
+      },
+      "Tracking00": {
+        "$value": 0,
+        "$type": "number",
+        "$description": "Core typography source: 0%. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689167
+        }
+      },
+      "TrackingMinus01": {
+        "$value": -1,
+        "$type": "number",
+        "$description": "Core typography source: -1%. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689166
+        }
+      },
+      "TrackingMinus02": {
+        "$value": -2,
+        "$type": "number",
+        "$description": "Core typography source: -2%. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689165
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293751
+      }
+    },
+    "Font Style": {
+      "Bold": {
+        "$value": "Bold",
+        "$type": "string",
+        "$description": "Core typography source: Bold. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689147
+        }
+      },
+      "SemiBold": {
+        "$value": "SemiBold",
+        "$type": "string",
+        "$description": "Core typography source: SemiBold. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689146
+        }
+      },
+      "Medium": {
+        "$value": "Medium",
+        "$type": "string",
+        "$description": "Core typography source: Medium. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689145
+        }
+      },
+      "Regular": {
+        "$value": "Regular",
+        "$type": "string",
+        "$description": "Core typography source: Regular. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689144
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293750
+      }
+    },
+    "Font Size": {
+      "FontSize40": {
+        "$value": 40,
+        "$type": "number",
+        "$description": "Core typography source: 40px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689156
+        }
+      },
+      "FontSize28": {
+        "$value": 28,
+        "$type": "number",
+        "$description": "Core typography source: 28px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689155
+        }
+      },
+      "FontSize20": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Core typography source: 20px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689154
+        }
+      },
+      "FontSize16": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Core typography source: 16px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689153
+        }
+      },
+      "FontSize14_5": {
+        "$value": 14.5,
+        "$type": "number",
+        "$description": "Core typography source: 14.5px. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689152
+        }
+      },
+      "FontSize14": {
+        "$value": 14,
+        "$type": "number",
+        "$description": "Core typography source: 14. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689151
+        }
+      },
+      "FontSize13": {
+        "$value": 13,
+        "$type": "number",
+        "$description": "Core typography source: 13. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689150
+        }
+      },
+      "FontSize12_5": {
+        "$value": 12.5,
+        "$type": "number",
+        "$description": "Core typography source: 12.5. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689149
+        }
+      },
+      "FontSize11": {
+        "$value": 11,
+        "$type": "number",
+        "$description": "Core typography source: 11. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689148
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293749
+      }
+    },
+    "Font Family": {
+      "JetBrains Mono": {
+        "$value": "JetBrains Mono",
+        "$type": "string",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689195
+        }
+      },
+      "Public Sans": {
+        "$value": "Public Sans",
+        "$type": "string",
+        "$description": "Core typography source: Public Sans. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689143
+        }
+      },
+      "Onest": {
+        "$value": "Onest",
+        "$type": "string",
+        "$description": "Core typography source: Onest. Alias from Typography system tokens; never bind directly to product text.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689142
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293748
+      }
+    },
+    "Color": {
+      "Warning": {
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981,
+              0.9019607843137255,
+              0.5411764705882353
+            ],
+            "alpha": 1,
+            "hex": "#fde68a"
+          },
+          "$type": "color",
+          "$description": "Light warning border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689069
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7058823529411765,
+              0.3254901960784314,
+              0.03529411764705882
+            ],
+            "alpha": 1,
+            "hex": "#b45309"
+          },
+          "$type": "color",
+          "$description": "Light warning foreground and dot.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689070
+          }
+        },
+        "Dark Foreground": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9882352941176471,
+              0.8274509803921568,
+              0.30196078431372547
+            ],
+            "alpha": 1,
+            "hex": "#fcd34d"
+          },
+          "$type": "color",
+          "$description": "Dark warning text and dot.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689073
+          }
+        },
+        "Dark Border": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4588235294117647,
+              0.3254901960784314,
+              0.08627450980392157
+            ],
+            "alpha": 1,
+            "hex": "#755316"
+          },
+          "$type": "color",
+          "$description": "Dark warning border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689072
+          }
+        },
+        "Dark Surface": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.22745098039215686,
+              0.16862745098039217,
+              0.07058823529411765
+            ],
+            "alpha": 1,
+            "hex": "#3a2b12"
+          },
+          "$type": "color",
+          "$description": "Dark warning surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689071
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.996078431372549,
+              0.9529411764705882,
+              0.7803921568627451
+            ],
+            "alpha": 1,
+            "hex": "#fef3c7"
+          },
+          "$type": "color",
+          "$description": "Light warning surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689068
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293747
+        }
+      },
+      "Success": {
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7647058823529411,
+              0.9372549019607843,
+              0.8901960784313725
+            ],
+            "alpha": 1,
+            "hex": "#c3efe3"
+          },
+          "$type": "color",
+          "$description": "Light success border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689063
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.08235294117647059,
+              0.5019607843137255,
+              0.23921568627450981
+            ],
+            "alpha": 1,
+            "hex": "#15803d"
+          },
+          "$type": "color",
+          "$description": "Light success foreground and dot.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689064
+          }
+        },
+        "Dark Foreground": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.49019607843137253,
+              0.8862745098039215,
+              0.6313725490196078
+            ],
+            "alpha": 1,
+            "hex": "#7de2a1"
+          },
+          "$type": "color",
+          "$description": "Dark success text and dot.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689067
+          }
+        },
+        "Dark Border": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.16862745098039217,
+              0.4196078431372549,
+              0.30980392156862746
+            ],
+            "alpha": 1,
+            "hex": "#2b6b4f"
+          },
+          "$type": "color",
+          "$description": "Dark success border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689066
+          }
+        },
+        "Dark Surface": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.08235294117647059,
+              0.20784313725490197,
+              0.1568627450980392
+            ],
+            "alpha": 1,
+            "hex": "#153528"
+          },
+          "$type": "color",
+          "$description": "Dark success surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689065
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9058823529411765,
+              0.996078431372549,
+              0.9725490196078431
+            ],
+            "alpha": 1,
+            "hex": "#e7fef8"
+          },
+          "$type": "color",
+          "$description": "Light success surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689062
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293746
+        }
+      },
+      "Neutral": {
+        "100": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9607843137254902,
+              0.9607843137254902,
+              0.9568627450980393
+            ],
+            "alpha": 1,
+            "hex": "#f5f5f4"
+          },
+          "$type": "color",
+          "$description": "Default neutral hover foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689009
+          }
+        },
+        "125": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9490196078431372,
+              0.9411764705882353,
+              0.9215686274509803
+            ],
+            "alpha": 1,
+            "hex": "#f2f0eb"
+          },
+          "$type": "color",
+          "$description": "High-contrast inverse text on dark shell surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689010
+          }
+        },
+        "150": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9450980392156862,
+              0.9411764705882353,
+              0.9294117647058824
+            ],
+            "alpha": 1,
+            "hex": "#f1f0ed"
+          },
+          "$type": "color",
+          "$description": "Neutral status and quiet surface foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689011
+          }
+        },
+        "175": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9372549019607843,
+              0.9294117647058824,
+              0.9176470588235294
+            ],
+            "alpha": 1,
+            "hex": "#efedea"
+          },
+          "$type": "color",
+          "$description": "Subtle dividers and row rules.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689012
+          }
+        },
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9058823529411765,
+              0.8980392156862745,
+              0.8941176470588236
+            ],
+            "alpha": 1,
+            "hex": "#e7e5e4"
+          },
+          "$type": "color",
+          "$description": "Default card, table and container border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689013
+          }
+        },
+        "225": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8941176470588236,
+              0.8823529411764706,
+              0.8549019607843137
+            ],
+            "alpha": 1,
+            "hex": "#e4e1da"
+          },
+          "$type": "color",
+          "$description": "Primary navigation text on the dark shell.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689014
+          }
+        },
+        "250": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8784313725490196,
+              0.8666666666666667,
+              0.8470588235294118
+            ],
+            "alpha": 1,
+            "hex": "#e0ddd8"
+          },
+          "$type": "color",
+          "$description": "Standard control outline.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689015
+          }
+        },
+        "300": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8392156862745098,
+              0.8274509803921568,
+              0.8196078431372549
+            ],
+            "alpha": 1,
+            "hex": "#d6d3d1"
+          },
+          "$type": "color",
+          "$description": "Strong divider and inactive checkbox outline.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689016
+          }
+        },
+        "350": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.788235294117647,
+              0.7725490196078432,
+              0.7372549019607844
+            ],
+            "alpha": 1,
+            "hex": "#c9c5bc"
+          },
+          "$type": "color",
+          "$description": "Secondary icon and inverse border foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689017
+          }
+        },
+        "400": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7098039215686275,
+              0.6901960784313725,
+              0.6549019607843137
+            ],
+            "alpha": 1,
+            "hex": "#b5b0a7"
+          },
+          "$type": "color",
+          "$description": "Muted navigation and shell metadata.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689018
+          }
+        },
+        "500": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6588235294117647,
+              0.6352941176470588,
+              0.6196078431372549
+            ],
+            "alpha": 1,
+            "hex": "#a8a29e"
+          },
+          "$type": "color",
+          "$description": "Disabled foreground foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689019
+          }
+        },
+        "600": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.47058823529411764,
+              0.45098039215686275,
+              0.4196078431372549
+            ],
+            "alpha": 1,
+            "hex": "#78736b"
+          },
+          "$type": "color",
+          "$description": "Tertiary text and placeholder foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689020
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4196078431372549,
+              0.403921568627451,
+              0.37254901960784315
+            ],
+            "alpha": 1,
+            "hex": "#6b675f"
+          },
+          "$type": "color",
+          "$description": "Muted metadata and overline foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689021
+          }
+        },
+        "800": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3411764705882353,
+              0.3254901960784314,
+              0.3058823529411765
+            ],
+            "alpha": 1,
+            "hex": "#57534e"
+          },
+          "$type": "color",
+          "$description": "Secondary text foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689022
+          }
+        },
+        "900": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.20784313725490197,
+              0.20392156862745098,
+              0.1843137254901961
+            ],
+            "alpha": 1,
+            "hex": "#35342f"
+          },
+          "$type": "color",
+          "$description": "Dark shell and utility icon foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689023
+          }
+        },
+        "950": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.10196078431372549,
+              0.09803921568627451,
+              0.09019607843137255
+            ],
+            "alpha": 1,
+            "hex": "#1a1917"
+          },
+          "$type": "color",
+          "$description": "Primary text and high-emphasis ink.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689024
+          }
+        },
+        "1000": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.058823529411764705,
+              0.07058823529411765,
+              0.06666666666666667
+            ],
+            "alpha": 1,
+            "hex": "#0f1211"
+          },
+          "$type": "color",
+          "$description": "Deepest warm neutral and dark canvas foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689025
+          }
+        },
+        "075": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274509803922,
+              0.9647058823529412,
+              0.9529411764705882
+            ],
+            "alpha": 1,
+            "hex": "#f7f6f3"
+          },
+          "$type": "color",
+          "$description": "Low-contrast warm neutral surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689008
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9803921568627451,
+              0.9803921568627451,
+              0.9764705882352941
+            ],
+            "alpha": 1,
+            "hex": "#fafaf9"
+          },
+          "$type": "color",
+          "$description": "Warm off-white for subtle surfaces and hover foundations.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689007
+          }
+        },
+        "025": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981,
+              1,
+              0.9882352941176471
+            ],
+            "alpha": 1,
+            "hex": "#fdfffc"
+          },
+          "$type": "color",
+          "$description": "Warm page-white used by the Paryatech canvas.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689006
+          }
+        },
+        "000": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#ffffff"
+          },
+          "$type": "color",
+          "$description": "Absolute white. Use only through semantic aliases.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689005
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293745
+        }
+      },
+      "Information": {
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7490196078431373,
+              0.8588235294117647,
+              0.996078431372549
+            ],
+            "alpha": 1,
+            "hex": "#bfdbfe"
+          },
+          "$type": "color",
+          "$description": "Light information and review border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689081
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.11372549019607843,
+              0.3058823529411765,
+              0.8470588235294118
+            ],
+            "alpha": 1,
+            "hex": "#1d4ed8"
+          },
+          "$type": "color",
+          "$description": "Light information and review foreground.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689082
+          }
+        },
+        "Dark Foreground": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5764705882352941,
+              0.7725490196078432,
+              0.9921568627450981
+            ],
+            "alpha": 1,
+            "hex": "#93c5fd"
+          },
+          "$type": "color",
+          "$description": "Dark information and review text and dot.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689085
+          }
+        },
+        "Dark Border": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.1607843137254902,
+              0.32941176470588235,
+              0.5254901960784314
+            ],
+            "alpha": 1,
+            "hex": "#295486"
+          },
+          "$type": "color",
+          "$description": "Dark information and review border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689084
+          }
+        },
+        "Dark Surface": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.09019607843137255,
+              0.16470588235294117,
+              0.27450980392156865
+            ],
+            "alpha": 1,
+            "hex": "#172a46"
+          },
+          "$type": "color",
+          "$description": "Dark information and review surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689083
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8588235294117647,
+              0.9176470588235294,
+              0.996078431372549
+            ],
+            "alpha": 1,
+            "hex": "#dbeafe"
+          },
+          "$type": "color",
+          "$description": "Light information and review surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689080
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293744
+        }
+      },
+      "Dark": {
+        "Text Secondary": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8235294117647058,
+              0.807843137254902,
+              0.7803921568627451
+            ],
+            "alpha": 1,
+            "hex": "#d2cec7"
+          },
+          "$type": "color",
+          "$description": "Secondary text on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689038
+          }
+        },
+        "Text Muted": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6862745098039216,
+              0.6666666666666666,
+              0.6313725490196078
+            ],
+            "alpha": 1,
+            "hex": "#afaaa1"
+          },
+          "$type": "color",
+          "$description": "Muted metadata on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689037
+          }
+        },
+        "Text Tertiary": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5411764705882353,
+              0.5254901960784314,
+              0.4980392156862745
+            ],
+            "alpha": 1,
+            "hex": "#8a867f"
+          },
+          "$type": "color",
+          "$description": "Tertiary text on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689036
+          }
+        },
+        "Text Disabled": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4,
+              0.38823529411764707,
+              0.37254901960784315
+            ],
+            "alpha": 1,
+            "hex": "#66635f"
+          },
+          "$type": "color",
+          "$description": "Disabled text on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689035
+          }
+        },
+        "Border Strong": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.2901960784313726,
+              0.3333333333333333,
+              0.3176470588235294
+            ],
+            "alpha": 1,
+            "hex": "#4a5551"
+          },
+          "$type": "color",
+          "$description": "High-emphasis border on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689034
+          }
+        },
+        "Border Control": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.22745098039215686,
+              0.25882352941176473,
+              0.24705882352941178
+            ],
+            "alpha": 1,
+            "hex": "#3a423f"
+          },
+          "$type": "color",
+          "$description": "Control outline on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689033
+          }
+        },
+        "Border Default": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.1843137254901961,
+              0.20784313725490197,
+              0.19607843137254902
+            ],
+            "alpha": 1,
+            "hex": "#2f3532"
+          },
+          "$type": "color",
+          "$description": "Default border on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689032
+          }
+        },
+        "Border Subtle": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.14901960784313725,
+              0.16862745098039217,
+              0.1607843137254902
+            ],
+            "alpha": 1,
+            "hex": "#262b29"
+          },
+          "$type": "color",
+          "$description": "Subtle divider on dark surfaces.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689031
+          }
+        },
+        "Overlay": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.13333333333333333,
+              0.1607843137254902,
+              0.15294117647058825
+            ],
+            "alpha": 1,
+            "hex": "#222927"
+          },
+          "$type": "color",
+          "$description": "Overlay and floating dark theme surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689030
+          }
+        },
+        "Raised": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.10588235294117647,
+              0.12941176470588237,
+              0.12156862745098039
+            ],
+            "alpha": 1,
+            "hex": "#1b211f"
+          },
+          "$type": "color",
+          "$description": "Raised dark theme surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689029
+          }
+        },
+        "Subtle": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.09803921568627451,
+              0.11764705882352941,
+              0.10980392156862745
+            ],
+            "alpha": 1,
+            "hex": "#191e1c"
+          },
+          "$type": "color",
+          "$description": "Quiet dark theme surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689028
+          }
+        },
+        "Surface": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.08235294117647059,
+              0.09803921568627451,
+              0.09411764705882353
+            ],
+            "alpha": 1,
+            "hex": "#151918"
+          },
+          "$type": "color",
+          "$description": "Default dark theme surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689027
+          }
+        },
+        "Sunken": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.043137254901960784,
+              0.054901960784313725,
+              0.050980392156862744
+            ],
+            "alpha": 1,
+            "hex": "#0b0e0d"
+          },
+          "$type": "color",
+          "$description": "Lowest dark elevation surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689026
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293743
+        }
+      },
+      "Danger": {
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9647058823529412,
+              0.796078431372549,
+              0.8156862745098039
+            ],
+            "alpha": 1,
+            "hex": "#f6cbd0"
+          },
+          "$type": "color",
+          "$description": "Light danger border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689075
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7529411764705882,
+              0.2549019607843137,
+              0.30196078431372547
+            ],
+            "alpha": 1,
+            "hex": "#c0414d"
+          },
+          "$type": "color",
+          "$description": "Light danger foreground and destructive action.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689076
+          }
+        },
+        "Dark Foreground": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981,
+              0.6431372549019608,
+              0.6862745098039216
+            ],
+            "alpha": 1,
+            "hex": "#fda4af"
+          },
+          "$type": "color",
+          "$description": "Dark danger text and dot.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689079
+          }
+        },
+        "Dark Border": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.48627450980392156,
+              0.20392156862745098,
+              0.2549019607843137
+            ],
+            "alpha": 1,
+            "hex": "#7c3441"
+          },
+          "$type": "color",
+          "$description": "Dark danger border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689078
+          }
+        },
+        "Dark Surface": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.22745098039215686,
+              0.10980392156862745,
+              0.13333333333333333
+            ],
+            "alpha": 1,
+            "hex": "#3a1c22"
+          },
+          "$type": "color",
+          "$description": "Dark danger surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689077
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9882352941176471,
+              0.8862745098039215,
+              0.8980392156862745
+            ],
+            "alpha": 1,
+            "hex": "#fce2e5"
+          },
+          "$type": "color",
+          "$description": "Light danger surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689074
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293742
+        }
+      },
+      "Brand": {
+        "100": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8784313725490196,
+              0.9411764705882353,
+              0.9333333333333333
+            ],
+            "alpha": 1,
+            "hex": "#e0f0ee"
+          },
+          "$type": "color",
+          "$description": "Soft teal surface foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689041
+          }
+        },
+        "150": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8392156862745098,
+              0.9137254901960784,
+              0.8980392156862745
+            ],
+            "alpha": 1,
+            "hex": "#d6e9e5"
+          },
+          "$type": "color",
+          "$description": "Booking summary border from the approved direction.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689042
+          }
+        },
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7529411764705882,
+              0.8784313725490196,
+              0.8666666666666667
+            ],
+            "alpha": 1,
+            "hex": "#c0e0dd"
+          },
+          "$type": "color",
+          "$description": "Subtle interactive border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689043
+          }
+        },
+        "300": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5607843137254902,
+              0.7686274509803922,
+              0.7529411764705882
+            ],
+            "alpha": 1,
+            "hex": "#8fc4c0"
+          },
+          "$type": "color",
+          "$description": "Light teal foreground for dark theme interaction.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689044
+          }
+        },
+        "400": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3843137254901961,
+              0.6627450980392157,
+              0.6509803921568628
+            ],
+            "alpha": 1,
+            "hex": "#62a9a6"
+          },
+          "$type": "color",
+          "$description": "Accessible teal focus and medium-emphasis interaction.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689045
+          }
+        },
+        "500": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.16470588235294117,
+              0.5294117647058824,
+              0.5176470588235295
+            ],
+            "alpha": 1,
+            "hex": "#2a8784"
+          },
+          "$type": "color",
+          "$description": "Dark-theme primary action foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689046
+          }
+        },
+        "600": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.10980392156862745,
+              0.43137254901960786,
+              0.4196078431372549
+            ],
+            "alpha": 1,
+            "hex": "#1c6e6b"
+          },
+          "$type": "color",
+          "$description": "General interactive teal.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689047
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.06666666666666667,
+              0.3333333333333333,
+              0.3254901960784314
+            ],
+            "alpha": 1,
+            "hex": "#115553"
+          },
+          "$type": "color",
+          "$description": "Primary Paryatech action and link teal.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689048
+          }
+        },
+        "800": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.054901960784313725,
+              0.27450980392156865,
+              0.26666666666666666
+            ],
+            "alpha": 1,
+            "hex": "#0e4644"
+          },
+          "$type": "color",
+          "$description": "Primary hover teal.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689049
+          }
+        },
+        "900": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0392156862745098,
+              0.22745098039215686,
+              0.2196078431372549
+            ],
+            "alpha": 1,
+            "hex": "#0a3a38"
+          },
+          "$type": "color",
+          "$description": "Primary pressed teal.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689050
+          }
+        },
+        "950": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.023529411764705882,
+              0.1568627450980392,
+              0.14901960784313725
+            ],
+            "alpha": 1,
+            "hex": "#062826"
+          },
+          "$type": "color",
+          "$description": "Deepest teal foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689051
+          }
+        },
+        "060": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9450980392156862,
+              0.9725490196078431,
+              0.9647058823529412
+            ],
+            "alpha": 1,
+            "hex": "#f1f8f6"
+          },
+          "$type": "color",
+          "$description": "Documents data-table column header surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689092
+          }
+        },
+        "025": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274509803922,
+              0.984313725490196,
+              0.9803921568627451
+            ],
+            "alpha": 1,
+            "hex": "#f7fbfa"
+          },
+          "$type": "color",
+          "$description": "Quiet teal-tinted header surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689091
+          }
+        },
+        "Dark Border": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.1568627450980392,
+              0.3686274509803922,
+              0.3568627450980392
+            ],
+            "alpha": 1,
+            "hex": "#285e5b"
+          },
+          "$type": "color",
+          "$description": "Dark interactive teal border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689090
+          }
+        },
+        "Dark Selected": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.08235294117647059,
+              0.18823529411764706,
+              0.1803921568627451
+            ],
+            "alpha": 1,
+            "hex": "#15302e"
+          },
+          "$type": "color",
+          "$description": "Dark selected and subtle teal surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689089
+          }
+        },
+        "075": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9294117647058824,
+              0.9647058823529412,
+              0.9568627450980393
+            ],
+            "alpha": 1,
+            "hex": "#edf6f4"
+          },
+          "$type": "color",
+          "$description": "Booking summary surface from the approved direction.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689040
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9411764705882353,
+              0.9725490196078431,
+              0.9686274509803922
+            ],
+            "alpha": 1,
+            "hex": "#f0f8f7"
+          },
+          "$type": "color",
+          "$description": "Light teal selected and hover surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689039
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293741
+        }
+      },
+      "Alpha": {
+        "Black 56": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.56,
+            "hex": "#000000"
+          },
+          "$type": "color",
+          "$description": "Reference-only 56% black used by modal and drawer scrims.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689093
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293740
+        }
+      },
+      "Accent": {
+        "100": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431,
+              0.8705882352941177,
+              0.9098039215686274
+            ],
+            "alpha": 1,
+            "hex": "#f8dee8"
+          },
+          "$type": "color",
+          "$description": "Avatar and identity accent surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689053
+          }
+        },
+        "200": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9372549019607843,
+              0.7411764705882353,
+              0.8352941176470589
+            ],
+            "alpha": 1,
+            "hex": "#efbdd5"
+          },
+          "$type": "color",
+          "$description": "Profile and accent border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689054
+          }
+        },
+        "300": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8666666666666667,
+              0.6509803921568628,
+              0.7568627450980392
+            ],
+            "alpha": 1,
+            "hex": "#dda6c1"
+          },
+          "$type": "color",
+          "$description": "Light pink accent step.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689055
+          }
+        },
+        "400": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7686274509803922,
+              0.5215686274509804,
+              0.6470588235294118
+            ],
+            "alpha": 1,
+            "hex": "#c485a5"
+          },
+          "$type": "color",
+          "$description": "Medium pink accent step.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689056
+          }
+        },
+        "500": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6470588235294118,
+              0.38823529411764707,
+              0.5137254901960784
+            ],
+            "alpha": 1,
+            "hex": "#a56383"
+          },
+          "$type": "color",
+          "$description": "Primary Paryatech personality accent.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689057
+          }
+        },
+        "600": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5529411764705883,
+              0.3058823529411765,
+              0.4235294117647059
+            ],
+            "alpha": 1,
+            "hex": "#8d4e6c"
+          },
+          "$type": "color",
+          "$description": "Pink accent hover foundation.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689058
+          }
+        },
+        "700": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.45098039215686275,
+              0.24313725490196078,
+              0.34509803921568627
+            ],
+            "alpha": 1,
+            "hex": "#733e58"
+          },
+          "$type": "color",
+          "$description": "Strong pink accent.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689059
+          }
+        },
+        "800": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3568627450980392,
+              0.18823529411764706,
+              0.27058823529411763
+            ],
+            "alpha": 1,
+            "hex": "#5b3045"
+          },
+          "$type": "color",
+          "$description": "Deep pink accent.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689060
+          }
+        },
+        "900": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.26666666666666666,
+              0.1411764705882353,
+              0.20784313725490197
+            ],
+            "alpha": 1,
+            "hex": "#442435"
+          },
+          "$type": "color",
+          "$description": "Darkest pink accent.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689061
+          }
+        },
+        "Dark Foreground": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9411764705882353,
+              0.6627450980392157,
+              0.7843137254901961
+            ],
+            "alpha": 1,
+            "hex": "#f0a9c8"
+          },
+          "$type": "color",
+          "$description": "Dark accent text and identity foreground.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689088
+          }
+        },
+        "Dark Border": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.44313725490196076,
+              0.26666666666666666,
+              0.3607843137254902
+            ],
+            "alpha": 1,
+            "hex": "#71445c"
+          },
+          "$type": "color",
+          "$description": "Dark accent border.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689087
+          }
+        },
+        "Dark Surface": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.2235294117647059,
+              0.1568627450980392,
+              0.2
+            ],
+            "alpha": 1,
+            "hex": "#392833"
+          },
+          "$type": "color",
+          "$description": "Dark selected-navigation accent surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689086
+          }
+        },
+        "050": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9882352941176471,
+              0.9372549019607843,
+              0.9568627450980393
+            ],
+            "alpha": 1,
+            "hex": "#fceff4"
+          },
+          "$type": "color",
+          "$description": "Selected navigation and subtle personality surface.",
+          "$extensions": {
+            "com.zeroheight.tokenId": 25689052
+          }
+        },
+        "$extensions": {
+          "com.zeroheight.tokenGroupId": 3293739
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293738
+      }
+    },
+    "Border": {
+      "Width15": {
+        "$value": 1.5,
+        "$type": "number",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689193
+        }
+      },
+      "Border02": {
+        "$value": 2,
+        "$type": "number",
+        "$description": "Core border source: 2. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689137
+        }
+      },
+      "Border015": {
+        "$value": 1.5,
+        "$type": "number",
+        "$description": "Core border source: 1.5. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689136
+        }
+      },
+      "Border01": {
+        "$value": 1,
+        "$type": "number",
+        "$description": "Core border source: 1. Alias from published system tokens; never bind directly in components.",
+        "$extensions": {
+          "com.zeroheight.tokenId": 25689135
+        }
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293737
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 88600
+    }
+  }
+}

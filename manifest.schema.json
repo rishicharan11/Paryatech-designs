@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Paryatech token manifest",
+  "type": "object",
+  "required": ["generated", "baseline", "modes", "namespaces", "counts"],
+  "properties": {
+    "generated": { "const": true },
+    "baseline": { "type": "string" },
+    "modes": { "type": "array", "items": { "type": "string" } },
+    "namespaces": { "type": "array", "items": { "type": "string" } },
+    "counts": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "./manifest.schema.json",
+  "generated": true,
+  "baseline": "Tokens/Default_Light_StandardDesktop.tokens.json",
+  "modes": [
+    "Default_Dark_CompactDesktop.tokens.json",
+    "Default_Dark_StandardDesktop.tokens.json",
+    "Default_Dark_WideDesktop.tokens.json",
+    "Default_Light_CompactDesktop.tokens.json",
+    "Default_Light_CompactDesktop_Danger.tokens.json",
+    "Default_Light_CompactDesktop_Interactive.tokens.json",
+    "Default_Light_CompactDesktop_Inverse.tokens.json",
+    "Default_Light_CompactDesktop_Selected.tokens.json",
+    "Default_Light_CompactDesktop_SidebarAction.tokens.json",
+    "Default_Light_CompactDesktop_SidebarSecondary.tokens.json",
+    "Default_Light_StandardDesktop.tokens.json",
+    "Default_Light_WideDesktop.tokens.json"
+  ],
+  "namespaces": [
+    "Core",
+    "Color",
+    "Spacing",
+    "Radius",
+    "Border",
+    "Sizing",
+    "Opacity & Focus",
+    "Typography",
+    "Responsive",
+    "Icon Context"
+  ],
+  "counts": {
+    "all": 395,
+    "primitive": 191,
+    "semanticAndComponent": 204,
+    "semanticTypography": 28
+  }
+}

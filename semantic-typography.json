@@ -1,0 +1,149 @@
+{
+  "$metadata": {
+    "derivedFrom": "Tokens/Default_Light_StandardDesktop.tokens.json",
+    "layer": "semantic-typography",
+    "generated": true
+  },
+  "Typography": {
+    "Style": {
+      "Bold": {
+        "$value": "{Core.Font Style.Bold}",
+        "$description": "Bold emphasis for page titles and important headings. Aliases Core/Font Style/Bold. Text styles bind this published token, never Core directly."
+      },
+      "SemiBold": {
+        "$value": "{Core.Font Style.SemiBold}",
+        "$description": "Semibold emphasis for headings and overlines. Aliases Core/Font Style/SemiBold. Text styles bind this published token, never Core directly."
+      },
+      "Medium": {
+        "$value": "{Core.Font Style.Medium}",
+        "$description": "Medium emphasis for labels, data and compact actions. Aliases Core/Font Style/Medium. Text styles bind this published token, never Core directly."
+      },
+      "Regular": {
+        "$value": "{Core.Font Style.Regular}",
+        "$description": "Regular text style string. Aliases Core/Font Style/Regular. Text styles bind this published token, never Core directly."
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293821
+      }
+    },
+    "Size": {
+      "11": {
+        "$value": "{Core.Font Size.FontSize11}",
+        "$description": "Normalized typography size: 11px. Use through the published text styles. Aliases Core/Font Size/FontSize11. Text styles bind this published token, never Core directly."
+      },
+      "13": {
+        "$value": "{Core.Font Size.FontSize13}",
+        "$description": "Normalized typography size: 13px. Use through the published text styles. Aliases Core/Font Size/FontSize13. Text styles bind this published token, never Core directly."
+      },
+      "14": {
+        "$value": "{Core.Font Size.FontSize14}",
+        "$description": "Normalized typography size: 14px. Use through the published text styles. Aliases Core/Font Size/FontSize14. Text styles bind this published token, never Core directly."
+      },
+      "16": {
+        "$value": "{Core.Font Size.FontSize16}",
+        "$description": "Normalized typography size: 16px. Use through the published text styles. Aliases Core/Font Size/FontSize16. Text styles bind this published token, never Core directly."
+      },
+      "20": {
+        "$value": "{Core.Font Size.FontSize20}",
+        "$description": "Normalized typography size: 20px. Use through the published text styles. Aliases Core/Font Size/FontSize20. Text styles bind this published token, never Core directly."
+      },
+      "28": {
+        "$value": "{Core.Font Size.FontSize28}",
+        "$description": "Normalized typography size: 28px. Use through the published text styles. Aliases Core/Font Size/FontSize28. Text styles bind this published token, never Core directly."
+      },
+      "40": {
+        "$value": "{Core.Font Size.FontSize40}",
+        "$description": "Normalized typography size: 40px. Use through the published text styles. Aliases Core/Font Size/FontSize40. Text styles bind this published token, never Core directly."
+      },
+      "14_5": {
+        "$value": "{Core.Font Size.FontSize14_5}",
+        "$description": "Normalized typography size: 14.5px. Use through the published text styles. Aliases Core/Font Size/FontSize14_5. Text styles bind this published token, never Core directly."
+      },
+      "12_5": {
+        "$value": "{Core.Font Size.FontSize12_5}",
+        "$description": "Normalized typography size: 12.5px. Use through the published text styles. Aliases Core/Font Size/FontSize12_5. Text styles bind this published token, never Core directly."
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293820
+      }
+    },
+    "Line Height": {
+      "16": {
+        "$value": "{Core.Line Height.LineHeight16}",
+        "$description": "Typography line height: 16px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight16. Text styles bind this published token, never Core directly."
+      },
+      "18": {
+        "$value": "{Core.Line Height.LineHeight18}",
+        "$description": "Typography line height: 18px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight18. Text styles bind this published token, never Core directly."
+      },
+      "20": {
+        "$value": "{Core.Line Height.LineHeight20}",
+        "$description": "Typography line height: 20px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight20. Text styles bind this published token, never Core directly."
+      },
+      "22": {
+        "$value": "{Core.Line Height.LineHeight22}",
+        "$description": "Typography line height: 22px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight22. Text styles bind this published token, never Core directly."
+      },
+      "24": {
+        "$value": "{Core.Line Height.LineHeight24}",
+        "$description": "Typography line height: 24px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight24. Text styles bind this published token, never Core directly."
+      },
+      "28": {
+        "$value": "{Core.Line Height.LineHeight28}",
+        "$description": "Typography line height: 28px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight28. Text styles bind this published token, never Core directly."
+      },
+      "36": {
+        "$value": "{Core.Line Height.LineHeight36}",
+        "$description": "Typography line height: 36px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight36. Text styles bind this published token, never Core directly."
+      },
+      "48": {
+        "$value": "{Core.Line Height.LineHeight48}",
+        "$description": "Typography line height: 48px. Pair only through the documented text styles. Aliases Core/Line Height/LineHeight48. Text styles bind this published token, never Core directly."
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293819
+      }
+    },
+    "Letter Spacing": {
+      "Overline": {
+        "$value": "{Core.Letter Spacing.Tracking08}",
+        "$description": "Uppercase overline and table-column header tracking, represented as a percentage. Aliases Core/Letter Spacing/Tracking08. Text styles bind this published token, never Core directly."
+      },
+      "Tighter": {
+        "$value": "{Core.Letter Spacing.TrackingMinus02}",
+        "$description": "Tighter tracking for page and display headings, represented as a percentage. Aliases Core/Letter Spacing/TrackingMinus02. Text styles bind this published token, never Core directly."
+      },
+      "Tight": {
+        "$value": "{Core.Letter Spacing.TrackingMinus01}",
+        "$description": "Tight tracking for compact headings, represented as a percentage. Aliases Core/Letter Spacing/TrackingMinus01. Text styles bind this published token, never Core directly."
+      },
+      "Normal": {
+        "$value": "{Core.Letter Spacing.Tracking00}",
+        "$description": "Default tracking for body, label and data text. Aliases Core/Letter Spacing/Tracking00. Text styles bind this published token, never Core directly."
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293818
+      }
+    },
+    "Family": {
+      "Data": {
+        "$value": "{Core.Font Family.JetBrains Mono}",
+        "$description": "Data, ID, date and monetary family. Use tabular numerals in implementation where alignment matters; JetBrains Mono is not permitted. Aliases Core/Font Family/Public Sans. Text styles bind this published token, never Core directly."
+      },
+      "UI": {
+        "$value": "{Core.Font Family.Public Sans}",
+        "$description": "Default UI, body, label and control family. Aliases Core/Font Family/Public Sans. Text styles bind this published token, never Core directly."
+      },
+      "Heading": {
+        "$value": "{Core.Font Family.Onest}",
+        "$description": "Heading and important-title family. Do not use for dense UI body copy. Aliases Core/Font Family/Onest. Text styles bind this published token, never Core directly."
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3293817
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 88607
+    }
+  }
+}
